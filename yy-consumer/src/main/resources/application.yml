@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: yy-consumer
+server:
+  port: 9999
+rocketmq:
+  consumer:
+    group: test-consumer-group
+    topic: test
+  name-server: 192.168.47.129:9876
